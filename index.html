@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/output-styles-tailwind.css" />
+    <link rel="icon" href="assets/imgs/portafolio.png">
+    <script
+      src="https://kit.fontawesome.com/ee91340905.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mi portfolio</title>
+  </head>
+
+  <body class="dark:bg-slate-800">
+    <section
+      id="inicio"
+      class="h-screen relative bg-cover bg-firstMobileWhite dark:bg-firstMobile lg:bg-firstDesktopWhite dark:lg:bg-firstDesktop"
+    >
+      <nav class="flex justify-between items-center px-6 h-1/6">
+        <aside>
+          <button id="menu-mobile">
+            <i class="fa-solid fa-bars text-4xl dark:text-white"></i>
+          </button>
+        </aside>
+        <aside>
+          <button>
+            <i id="moon" class="fa-solid fa-moon text-4xl dark:text-white"></i>
+          </button>
+        </aside>
+        <ul
+          id="menu"
+          class="absolute top-20 transition-transform duration-1000 h-auto w-2/4 flex text-xl pl-10 justify-center flex-col gap-2 dark:text-white"
+        >
+          <li
+            class="-translate-x-96 items transition-transform duration-[1050ms]"
+          >
+            <a href="#Tecnologias">Tecnologias</a>
+          </li>
+          <li
+            class="-translate-x-96 items transition-transform duration-[1000ms]"
+          >
+            <a href="#Experiencia">Experiencia</a>
+          </li>
+          <li
+            class="-translate-x-96 items transition-transform duration-[950ms]"
+          >
+            <a href="#">Proyectos</a>
+          </li>
+          <li
+            class="-translate-x-96 items transition-transform duration-[900ms]"
+          >
+            <a href="#">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="h-3/6">
+        <div class="h-full grid place-items-center">
+          <h1 class="text-3xl text-center dark:text-white lg:text-4xl">
+            Hola soy Alex, front-end developer
+          </h1>
+        </div>
+      </article>
+
+      <a href="#Tecnologias" class="absolute text-4xl bottom-4 right-4">
+        <i class="fa-solid fa-arrow-down dark:text-white"></i>
+      </a>
+    </section>
+
+    <a href="#inicio" class="sticky top-2 z-20">
+      <i class="fa-solid fa-house dark:text-white"></i>
+    </a>
+
+    <section id="Tecnologias" class="h-screen relative bg-tecnologias bg-cover">
+      <main class="h-full">
+        <article class="h-1/4 grid place-items-center">
+          <h2 class="text-3xl dark:text-white">Tecnologias</h2>
+        </article>
+
+        <aside class="h-3/4 grid place-items-center">
+          <ul class="flex gap-3 flex-wrap justify-center">
+            <li class="w-24 transition-transform hover:scale-125">
+              <h3 class="text-center text-xl pb-3 dark:text-white">HTML</h3>
+              <img src="./assets/svgs/html.svg" />
+            </li>
+            <li class="w-24 transition-transform hover:scale-125">
+              <h3 class="text-center text-xl pb-3 dark:text-white">CSS</h3>
+              <img src="./assets/svgs/css.svg" />
+            </li>
+            <li class="w-24 transition-transform hover:scale-125">
+              <h3 class="text-center text-xl pb-3 dark:text-white">Tailwind</h3>
+              <img src="./assets/svgs/tailwindcss-icon.svg" />
+            </li>
+            <li class="w-24 transition-transform hover:scale-125">
+              <h3 class="text-center text-xl pb-3 dark:text-white">React</h3>
+              <img src="./assets/svgs/react.svg" />
+            </li>
+            <li class="w-24 transition-transform hover:scale-125">
+              <h3 class="text-center text-xl pb-3 dark:text-white">Python</h3>
+              <img src="./assets/svgs/Python-logo.svg" alt="" />
+            </li>
+            <li class="w-24 transition-transform hover:scale-125">
+              <h3 class="text-center text-xl pb-3 dark:text-white">SQL</h3>
+              <img class="w-16 m-auto" src="./assets/svgs/sql.svg" />
+            </li>
+            <li class="w-24 transition-transform hover:scale-125">
+              <h3 class="text-center text-xl pb-3 dark:text-white">Git</h3>
+              <img src="./assets/svgs/git.svg" />
+            </li>
+            <li class="w-24 transition-transform hover:scale-125">
+              <h3 class="text-center text-xl pb-3 dark:text-white">GitHub</h3>
+              <img src="./assets/svgs/github.svg" />
+            </li>
+            <li class="w-24 transition-transform hover:scale-125">
+              <h3 class="text-center text-xl pb-3 dark:text-white">Terminal</h3>
+              <img src="./assets/svgs/terminal.svg" />
+            </li>
+          </ul>
+        </aside>
+      </main>
+
+      <a href="#Experiencia" class="absolute text-4xl bottom-4 right-4">
+        <i class="fa-solid fa-arrow-down dark:text-white"></i>
+      </a>
+    </section>
+
+    <section id="Experiencia" class="h-screen relative bg-experiencia bg-cover">
+      <main class="h-full">
+        <div class="h-1/6 grid place-items-center dark:text-white">
+          <h2 class="text-3xl">Experiencia</h2>
+        </div>
+        <div
+          class="h-5/6 p-6 grid place-items-start dark:text-white lg:p-12 lg:place-items-center"
+        >
+          <h3 class="text-lg text-justify lg:text-2xl">
+            Por el momento no cuento con experiencia laboral, pero tengo
+            alrededor de 3 años aprendiendo desde HTML hasta React; En mi
+            preparatoria llevé unas cuantas materias de computación y
+            programación. En todo este tiempo he aprendido de manera autodidacta
+            si quieres ver algunos de los cursos que he llevado te recomiendo
+            que puedas ver mi
+            <a
+              href="https://github.com/AlexNieblas10"
+              class="text-blue-500 underline"
+              target="_blank"
+              >GitHub</a
+            >
+            donde tengo algunos proyectos y algunos trabajos de cursos. En la
+            sección siguiente te mostraré algunos proyectos que he realizado con
+            las tecnologías que cuento. Espero que pueda empezar mi experiencia
+            laboral contigo😊
+          </h3>
+        </div>
+      </main>
+      <a href="#Proyectos" class="absolute text-4xl bottom-4 right-4">
+        <i class="fa-solid fa-arrow-down dark:text-white"></i>
+      </a>
+    </section>
+
+    <section
+      id="Proyectos"
+      class="bg-proyectos bg-cover grid place-items-center"
+    >
+      <main class="h-full mb-10 w-11/12">
+        <h2 class="text-3xl text-center dark:text-white">Proyectos</h2>
+
+        <div class="w-full flex flex-col items-center dark:text-white gap-20">
+          <aside class="flex items-center max-sm:flex-col justify-center">
+            <div class="w-3/5">
+              <h1 class="text-2xl text-center">To-do App</h1>
+              <img src="./assets/imgs/to-do_app.png" alt="" />
+            </div>
+
+            <div class="sm:w-2/5 flex flex-col items-center">
+              <p class="w-2/3 text-center font-bold mb-8">
+                Esta app fue creada para una necesidad propia. Fue creada con
+                React. Te invito a verla
+
+                <a
+                  target="_blank"
+                  href="https://to-dos-beta.vercel.app/"
+                  class="text-blue-500 underline"
+                  >aquí</a
+                >
+              </p>
+            </div>
+          </aside>
+
+          <aside class="flex max-sm:flex-col items-center justify-center">
+            <div class="w-3/5">
+              <h1 class="text-2xl text-center">Weather App</h1>
+              <img src="./assets/imgs/weather_app.png" alt="" />
+            </div>
+
+            <div class="sm:w-2/5 flex items-center justify-center">
+              <p class="w-2/3 text-center font-bold mb-8">
+                Esta app fue construida con React y usé la API de
+                <a
+                  target="_blank"
+                  href="https://www.tomorrow.io/"
+                  class="text-blue-500 underline"
+                  >tomorrow.io</a
+                >
+                para obtener una precisión más alta a la hora de dar los datos.
+                Esta app también cuenta con forecast para poder ver el clima en
+                los siguientes 5 días. Te invito a verla
+                <a
+                target="_blank"
+                  href="https://weather-app-beta-lake.vercel.app/"
+                  class="text-blue-500 underline"
+                  >aquí</a
+                >
+              </p>
+            </div>
+          </aside>
+
+          <aside class="flex max-sm:flex-col items-center justify-center">
+            <div class="w-3/5">
+              <h1 class="text-2xl text-center">Disney API</h1>
+              <img src="./assets/imgs/disney.png" alt="" />
+            </div>
+
+            <div class="sm:w-2/5 flex items-center justify-center">
+              <p class="w-2/3 text-center font-bold mb-8">
+                Esta app fue construida con React y usé la API de
+                <a
+                  target="_blank"
+                  href="https://disneyapi.dev/"
+                  class="text-blue-500 underline"
+                  >disneyapi.dev</a
+                >
+                para obtener todos los datos acerca de los personajes de Disney y puedes probarla
+                <a
+                  target="_blank"
+                  href="https://api-disney-one.vercel.app/"
+                  class="text-blue-500 underline"
+                  >aquí</a
+                >
+              </p>
+            </div>
+          </aside>
+
+        </div>
+      </main>
+
+      <footer class="dark:text-white flex items-center p-4">
+        <h1 class="text-xl mr-3">CONTACTAME</h1>
+        <ul class="flex gap-5">
+          <li>
+            <a
+              target="_blank"
+              href="https://twitter.com/alexnieblasm?t=KI5mQJ-b6Xqii-do5L8rxA&s=09"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/alex-nieblas-moreno-a90818235/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:nieblasalexadrian@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </section>
+  </body>
+  <script src="./logic/index.js"></script>
+</html>
