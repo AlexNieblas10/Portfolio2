@@ -5,11 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/output-styles-tailwind.css" />
-    <link rel="icon" href="assets/imgs/portafolio.png">
-    <script
-      src="https://kit.fontawesome.com/ee91340905.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="icon" href="assets/imgs/portafolio.png" />
+
     <title>Mi portfolio</title>
   </head>
 
@@ -22,11 +19,21 @@
         <aside>
           <button id="menu-mobile">
             <i class="fa-solid fa-bars text-4xl dark:text-white"></i>
+            <img
+              src="/assets/imgs/burger-bar.png"
+              class="w-1/12 right-0"
+              alt="burguer menu"
+            />
           </button>
         </aside>
-        <aside>
-          <button>
-            <i id="moon" class="fa-solid fa-moon text-4xl dark:text-white"></i>
+        <aside class="w-full flex justify-end">
+          <button class="flex justify-end">
+            <img
+              src="/assets/imgs/moon.png"
+              alt="change the background"
+              class="w-1/12 right-0"
+              id="moon"
+            />
           </button>
         </aside>
         <ul
@@ -46,12 +53,12 @@
           <li
             class="-translate-x-96 items transition-transform duration-[950ms]"
           >
-            <a href="#">Proyectos</a>
+            <a href="#Proyectos">Proyectos</a>
           </li>
           <li
             class="-translate-x-96 items transition-transform duration-[900ms]"
           >
-            <a href="#">Contacto</a>
+            <a href="#Contacto">Contacto</a>
           </li>
         </ul>
       </nav>
@@ -191,7 +198,7 @@
           <aside class="flex max-sm:flex-col items-center justify-center">
             <div class="w-3/5">
               <h1 class="text-2xl text-center">Weather App</h1>
-              <img src="./assets/imgs/weather_app.png" alt="" />
+              <img src="./assets/imgs/weather_app.jpeg" alt="" />
             </div>
 
             <div class="sm:w-2/5 flex items-center justify-center">
@@ -207,7 +214,7 @@
                 Esta app también cuenta con forecast para poder ver el clima en
                 los siguientes 5 días. Te invito a verla
                 <a
-                target="_blank"
+                  target="_blank"
                   href="https://weather-app-beta-lake.vercel.app/"
                   class="text-blue-500 underline"
                   >aquí</a
@@ -218,54 +225,32 @@
 
           <aside class="flex max-sm:flex-col items-center justify-center">
             <div class="w-3/5">
-              <h1 class="text-2xl text-center">Disney API</h1>
-              <img src="./assets/imgs/disney.png" alt="" />
+              <h1 class="text-2xl text-center">Connect 4</h1>
+              <img src="./assets/imgs/Connect-4.jpeg" alt="" />
             </div>
 
             <div class="sm:w-2/5 flex items-center justify-center">
               <p class="w-2/3 text-center font-bold mb-8">
-                Esta app fue construida con React y usé la API de
+                El clásico juego conecta 4 solo disponible en pantallas anchas
+                puedes probarla
                 <a
                   target="_blank"
-                  href="https://disneyapi.dev/"
-                  class="text-blue-500 underline"
-                  >disneyapi.dev</a
-                >
-                para obtener todos los datos acerca de los personajes de Disney y puedes probarla
-                <a
-                  target="_blank"
-                  href="https://api-disney-one.vercel.app/"
+                  href="https://connect-4-eight.vercel.app/"
                   class="text-blue-500 underline"
                   >aquí</a
                 >
               </p>
             </div>
           </aside>
-
         </div>
       </main>
 
-      <footer class="dark:text-white flex items-center p-4">
-        <h1 class="text-xl mr-3">CONTACTAME</h1>
+      <footer id="Contacto" class="dark:text-white flex items-center p-4">
         <ul class="flex gap-5">
-          <li>
-            <a
-              target="_blank"
-              href="https://twitter.com/alexnieblasm?t=KI5mQJ-b6Xqii-do5L8rxA&s=09"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/alex-nieblas-moreno-a90818235/"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-          </li>
-          <li>
-            <a href="mailto:nieblasalexadrian@gmail.com"
-              ><i class="fa-solid fa-envelope"></i
-            ></a>
+          <li class="text-blue-500 underline">
+            <a href="/assets/Mi cv.pdf" download="CV de Alex Nieblas"
+              >Descarga mi CV aquí</a
+            >
           </li>
         </ul>
       </footer>
